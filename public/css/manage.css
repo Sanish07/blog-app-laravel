@@ -1,0 +1,150 @@
+@font-face {
+    font-family: logo-font;
+    src: url(Billabong.ttf);
+  }
+
+body{
+    margin : 0;
+    background: url("../manage_img.gif");
+    background-position: 0 -80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color : white;
+}
+
+#app-name{
+    font-family: logo-font;
+    text-decoration: none;
+    margin-right: 25vw;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color : #ffd5c3;
+  }
+
+::placeholder { 
+    color: #FAEEE7;
+    opacity: 0.4; 
+  }
+
+  ::selection { 
+    color: #FDE8CD;
+    background: #9C0F48;
+  }
+
+  ::-moz-selection { 
+    color: #FDE8CD;
+    background: #9C0F48;
+  }
+
+.div-hr {
+  width : 70vw;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #afaaaa inset;
+}
+
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    padding: 2vh 15vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .nav-items{
+    padding-top : 0.9rem; 
+    margin-left: 6vw;
+  }
+  
+  .nav-items > a{
+    text-decoration: none;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    color : #FDEBF7;
+  }
+  
+  .nav-items > a:hover{
+    transition: 1000ms;
+    color : #F9ED69;
+  }
+
+main{
+    padding: 0 14vw;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color : #ECC488;
+}
+
+label{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.4rem;
+    color : #F6F6F6;
+}
+
+form{
+    text-align: left;
+}
+
+input{
+    color : #F7F7F7;
+    width : 38vw;
+}
+
+.text-inputs{
+    padding: 0.6rem 1rem;
+    color : #3F3351;
+    border-radius: 5px;
+    background-color: rgba(145, 199, 136,0.4);
+    border: 2px solid #FFFDA2;
+    font-size: 1.2rem;
+    margin-bottom: 1vh;
+}
+
+textarea{
+    resize: none;
+    display: inline;
+}
+
+button{
+    font-family: 'League Spartan', sans-serif;
+    color : #FEFFDE;
+    font-size: 1.4rem;
+    margin-left: 10vw;
+    cursor: pointer;
+    padding: 2vh 20vw;
+    border-radius : 30px; 
+    background-color: rgba(28, 20, 39,0.6);
+    border : 2px solid white;
+}
+
+button:hover {
+    color : #FFEEAD;
+    background-color: rgba(117, 5, 80,0.6);
+    border : 2px solid black;
+}
+
+
+
+.display-error{
+  font-size: 1.3rem;
+  border-radius : 5px;
+  background: rgba(190, 0, 0, 0.4);
+  color : #F7EA00;
+}
+
+#cat-group{
+  margin-right: 2vw;
+}
+
+#cat-group > optgroup{
+  color : #CE1F6A;
+}
+
+#cat-group > optgroup > option{
+  color : #C67ACE;
+}

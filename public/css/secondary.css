@@ -1,0 +1,166 @@
+@font-face {
+    font-family: logo-font;
+    src: url(Billabong.ttf);
+}
+
+::selection {
+    color: #FFF600;
+    background: #810034;
+}
+
+::-moz-selection {
+    color: #FFF600;
+    background: #810034;
+}
+
+body {
+    margin: 0;
+    background: url("../second_bg.jpg");
+    background-position: 0 -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#app-name {
+    font-family: logo-font;
+    margin-right: 30vw;
+    text-decoration: none;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #B80D57;
+}
+
+
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    padding: 3vh 15vw;
+    padding-bottom : 0;
+    margin-top: 0;
+}
+
+.nav-items {
+    padding-top: 0.7rem;
+    margin-left: 6vw;
+}
+
+.nav-items>a {
+    text-decoration: none;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #B21F66;
+}
+
+.nav-items>a:hover {
+    transition: 1000ms;
+    color: #F76E11;
+}
+
+main {
+    text-align: center;
+}
+
+.page-head {
+    font-family: 'Poppins', sans-serif;
+    color: #91091E;
+    text-transform: capitalize;
+}
+
+.content {
+    padding: 5vh 5vw;
+    text-align: left;
+}
+
+.div-hr {
+    width: 70vw;
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #91091E inset;
+}
+
+hr{
+    width : 5%;
+    border: none;
+    border-top: 1px dotted #890F0D;
+    border-width: 6px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    padding: 0 5vw;
+}
+
+.contact-card{
+    text-decoration: none;
+    margin-top: 10vh;
+    border : 2px solid #203239;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    width: 8vw;
+    height: 25vh;
+    margin-left: 2vw;
+    text-align: center;
+    background-color: rgba(26, 19, 47,0.2);
+}
+
+.contact-card:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgba(146, 84, 200,0.2);
+}
+
+.contact-text{
+    margin-top: 1rem;
+    color : #F6E7D8;
+    font-size: 1.15rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    padding: 0 5vw;
+}
+
+.project-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    margin-left: 2vw;
+    border-radius: 1em;
+    background: rgba(57, 174, 169,0.2);
+	font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    height : 40vh
+}
+
+.project-card:hover{
+    transform: scale(1.1,1.1);
+    transition: 500ms;
+    background: rgba(241, 0, 134,0.2);
+}
+
+.project-card > img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.project-text{
+    margin-top: 2.5rem;
+    color : #E6D5B8;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.project-text:hover{
+    color : rgb(242, 250, 90);
+}

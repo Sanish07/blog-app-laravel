@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: logo-font;
+    src: url(Billabong.ttf);
+}
+
+::selection {
+    color: #FBE8D3;
+    background: #283C63;
+}
+
+::-moz-selection {
+    color: #FBE8D3;
+    background: #283C63;
+}
+
+header{
+    height : 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#app-name {
+    font-family: logo-font;
+    margin-right: 21vw;
+    text-decoration: none;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    padding: 3vh 15vw;
+    margin-top: 0;
+}
+
+.nav-items {
+    padding-top: 0.7rem;
+    margin-left: 6vw;
+}
+
+.nav-items>a {
+    text-decoration: none;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.nav-items>a:hover {
+    transition: 1000ms;
+}
+
+.blog-img{
+    position: absolute;
+    top : 25vh;
+    left : 25vw;
+    width : 50vw;
+    height: 57vh;
+}
+
+.blog-cat{
+    font-size: 1.3rem;
+}
+
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+}
+
+.tag+.tag {
+    margin-left: .5em;
+}
+
+.tag-blue {
+    background: #56CCF2;
+    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+    color: #fafafa;
+}
+
+.tag-brown {
+    background: #D1913C;
+    background: linear-gradient(to bottom, #e7bd85, #D1913C);
+    color: #fafafa;
+}
+
+.tag-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #f06c63, #cb2d3e);
+    color: #fafafa;
+}
+
+.tag-green {
+    background: #206A5D;
+    background: linear-gradient(to bottom, #4AA96C, #206A5D);
+    color: #fafafa;
+}
+
+.tag-yellow {
+    background: #FA9905;
+    background: linear-gradient(to bottom, #F7EA00, #FA9905);
+    color: #fafafa;
+}
+
+.content{
+    margin-top: 35vh;
+    padding: 0 25vw;
+    text-align: left;
+}
+
+.blog-head{
+    padding-top: 2vh;
+    font-family: 'Comfortaa', cursive;
+}
+
+hr{
+    width : 50vw;
+    border : none;
+}
+
+.blog-body{
+    padding: 5vh 0;
+    font-family: 'PT Serif', serif;
+    font-size: 1.3rem;
+}
